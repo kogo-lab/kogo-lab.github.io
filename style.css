@@ -84,3 +84,42 @@ nav a {
 .back-links p {
   margin: 0 0 8px;
 }
+
+.profile-card {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  border: 1px solid #3a3a3a;
+  background-color: #181818;
+  padding: 16px;
+  border-radius: 10px;
+  margin: 24px 0 32px;
+}
+
+.profile-card__icon {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 10px;
+  flex-shrink: 0;
+}
+
+.profile-card__content h2 {
+  margin-top: 0;
+}
+
+.profile-card__content p {
+  margin-bottom: 0;
+}
+
+@media (max-width: 640px) {
+  .profile-card {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .profile-card__icon {
+    width: 140px;
+    height: 140px;
+  }
+}
