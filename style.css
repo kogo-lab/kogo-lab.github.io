@@ -43,3 +43,22 @@ nav a {
   font-size: 24px;
   letter-spacing: 3px;
 }
+
+
+.article-meta {
+  margin: 0 0 6px;
+  color: #cccccc;
+  font-size: 14px;
+}
+
+.article-body {
+  margin-top: 24px;
+}
+
+.back-links {
+  margin-top: 36px;
+}
+
+.back-links p {
+  margin: 0 0 8px;
+}
