@@ -18,6 +18,14 @@ h2 {
   margin-top: 40px;
 }
 
+.top-section {
+  margin-top: 36px;
+}
+
+.top-section h2 {
+  margin-top: 0;
+}
+
 a {
   color: #9ecbff;
   text-decoration: none;
@@ -42,6 +50,20 @@ nav a {
 .counter {
   font-size: 24px;
   letter-spacing: 3px;
+}
+
+.guide-cards {
+  border: 1px solid #444;
+  background-color: #181818;
+  padding: 12px 16px;
+}
+
+.guide-cards p {
+  margin: 8px 0;
+}
+
+.news-list li {
+  margin-bottom: 6px;
 }
 
 
