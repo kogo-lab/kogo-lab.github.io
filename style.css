@@ -201,3 +201,20 @@ nav a {
 .articles-categories li {
   margin-bottom: 4px;
 }
+
+.site-footer {
+  margin-top: 48px;
+  padding-top: 18px;
+  border-top: 1px solid #3a3a3a;
+  color: #a9a9a9;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.site-footer p {
+  margin: 0;
+}
+
+.site-footer p + p {
+  margin-top: 4px;
+}
